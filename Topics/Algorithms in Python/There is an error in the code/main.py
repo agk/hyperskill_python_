@@ -11,8 +11,8 @@ def aver(sent):
     for word in words:
         total = total + len(word)
 
-    if len(word) != 0:
-        result = total / len(word)
+    if len(words) != 0:
+        result = total / len(words)
     else:
         result = 0
 
