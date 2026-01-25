@@ -1,3 +1,6 @@
+from operator import truediv
+
+
 def get_number(num):
     """Return the number one less than the given positive number. 
     If the number is nonpositive, return a string "Enter a positive number!".
@@ -7,4 +10,7 @@ def get_number(num):
     Return values:
     An integer one less than the input number.
     """
-    pass
+    if num > 0:
+        return num-1
+    else:
+        return "Enter a positive number!"
