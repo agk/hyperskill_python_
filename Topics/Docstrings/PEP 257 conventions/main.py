@@ -1,2 +1,4 @@
-#  You can experiment here, it won’t be checked
+import json
+
+help(json.load)
 
