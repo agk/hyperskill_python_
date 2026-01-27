@@ -1,6 +1,5 @@
-import string
-template = string.Template("Hi, $name! You look $adjective today! You're doing great!")
+template = string.Template("Hi, $name! You look adjective today! You're doing great!")
 name = input()
 adjective = input()
-compliment = template.substitute(name=name, adjective=adjective)
+compliment = template.format(name=name, adjective)
 print(compliment)
