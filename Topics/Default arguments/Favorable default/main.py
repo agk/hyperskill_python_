@@ -1,3 +1,2 @@
-def code(language="Python"):
+def code():
     # Your code here
-    print(f'We code in {language}')
