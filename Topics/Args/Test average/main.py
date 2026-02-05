@@ -1,2 +1,2 @@
-def average_mark():
-    pass
+def average_mark(*nums):
+    return round(sum(nums) / len(nums), 1)
