@@ -1,5 +1,0 @@
-template = string.Template("Hi, $name! You look adjective today! You're doing great!")
-name = input()
-adjective = input()
-compliment = template.format(name=name, adjective)
-print(compliment)
